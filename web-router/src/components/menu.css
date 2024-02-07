@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+li{
+    list-style: none;
+
+}
+
+
+
+
+.contenedor-menu{
+    height: 6rem;
+    width: 100%;
+    background-color: rgb(14, 6, 22);
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+}
+
+.link{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.link:hover{
+    color: rgb(142, 147, 151);
+}

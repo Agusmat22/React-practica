@@ -1,0 +1,130 @@
+
+.contenedor-cartelera{
+    width: 100%;
+}
+
+
+.cartelera{
+
+    margin: 2rem 0;
+    width: 90%; /*MODIFICADO*/
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* 300px es el ancho mínimo y 1fr distribuye el espacio disponible */
+    gap: 20px; /* Espaciado entre las cards */
+    justify-items: center;
+    background-color: #441f75;
+    padding: 3rem 3rem;
+    border-radius: 15px;
+}
+
+
+.card{
+    height: 25rem !important;
+    width: 100% !important;
+   
+}
+
+.card img{
+    max-height: 15rem;
+
+}
+
+.card h3{
+    margin: 6px;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+
+}
+
+.card button{
+    width: 35%;
+    height: 2rem;
+    margin-top: 0.5rem !important; 
+    font-size: 1rem;
+
+}
+
+.card button:hover{
+    background-color: #9c79ce;
+
+}
+
+.contenedor-puntaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+}
+
+.contenedor-puntaje i{
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+.contenedor-paginacion button,p{
+    font-size: 1.2rem;
+}
+
+
+
+
+.titulo{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1f063f;
+    text-shadow: 2px 2px 4px #441f75;;
+    margin-top: 3rem;
+
+}
+
+
+
+
+
+
+
+@media (max-width: 840px)
+{
+    .cartelera{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* 300px es el ancho mínimo y 1fr distribuye el espacio disponible */
+
+    }
+
+    .card{
+        height: 28.5rem;
+        width: 100%;
+    }
+
+    .card img{
+        height: 17rem;
+    }
+}
+
+@media (max-width: 796px){
+    .cartelera{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* 300px es el ancho mínimo y 1fr distribuye el espacio disponible */
+
+    }
+
+    .card{
+        height: 33rem;
+        width: 70%;
+    }
+
+    .card img{
+        min-height: 22rem;
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 610px)
+{
+
+    .card{
+        width: 90%;
+    }
+}

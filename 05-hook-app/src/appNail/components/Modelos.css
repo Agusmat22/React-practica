@@ -1,0 +1,44 @@
+
+
+.contenedor-modelos{
+    width: 100%;
+    min-height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBAEBE;
+    box-shadow: 2px 2px 4px #be4b6a;
+    flex-direction: column;
+}
+
+.modelos{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.contenedor-modelos h3{
+    font-size: 2.8rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(250, 217, 239);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 2px #a03751;
+}
+
+@media(max-width: 1348px){
+
+    .modelos{
+        flex-direction: column;
+        gap: 2rem;
+
+        margin: 2rem 0;
+    }
+
+    .card{
+        width: 25rem !important;
+    }
+}

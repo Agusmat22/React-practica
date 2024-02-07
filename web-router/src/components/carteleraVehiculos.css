@@ -1,0 +1,36 @@
+
+.contenedor-vehiculos{
+    width: 100%;
+    min-height: 30rem;
+    background-color: rgba(57, 12, 161, 0.863);
+    box-shadow: 2px 2px 4px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.vehiculo{
+    height: 14rem;
+    width: 16rem;
+    background-color: rgb(24, 5, 68);
+    border-radius: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.vehiculo h2{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: aliceblue;
+}
+
+.vehiculo p{
+    color: aliceblue;
+    font-size: 1.2rem;
+    width: 80%;
+}

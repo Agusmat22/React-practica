@@ -1,0 +1,67 @@
+.contenedor-presentacion{
+
+    height: 40rem;
+    width: 100%;
+
+    background :linear-gradient(rgba(42, 26, 54, 0.75),rgba(0, 0, 0, 0.75) ) ,url('../../img/fondo-principal.jpg') no-repeat center center/cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 2px 2px 4px black;
+    
+}
+
+.title h1{
+    font-size: 3.5rem;
+    color: white;
+    text-shadow: 4px 4px 8px rgb(117, 12, 158);
+}
+
+
+.home{
+    width: 100%;
+    min-height: 40rem;
+    background-color: #212529;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-personajes{
+    background-color: rgb(22, 19, 26);
+    min-height: 22rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+
+
+}
+
+.personajes h3{
+    color: aliceblue;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    text-shadow: 4px 4px 8px rgb(58, 17, 97);
+}
+
+.footer{
+    height: 7rem;
+    background-color: #0f1214;
+}
+
+
+
+
+
+
+
+
+
+
+
+

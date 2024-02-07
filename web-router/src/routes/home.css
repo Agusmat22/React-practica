@@ -1,0 +1,20 @@
+
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 100%;
+}
+
+.presentacion h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-decoration: underline 2px;
+}
+
+.presentacion p{
+    font-size: 1.2rem;
+}

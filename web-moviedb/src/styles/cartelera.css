@@ -1,0 +1,187 @@
+
+.contenedor-cartelera{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.cartelera{
+
+    margin: 0rem 0;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); /* 300px es el ancho mínimo y 1fr distribuye el espacio disponible */
+    gap: 20px; /* Espaciado entre las cards */
+    justify-items: center;
+}
+
+
+.card{
+    height: 30rem;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #543181;
+    align-items: center;
+    box-shadow: 2px 2px 4px rgb(31, 30, 30);
+
+}
+
+.card img{
+    max-height: 17rem;
+    width: 100%;
+    border-top: 15px;
+
+    border-radius: 10px 10px 0 0;
+
+}
+
+.card h3{
+    margin: 6px;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px rgb(31, 29, 29);
+}
+
+.card button{
+    width: 30%;
+    height: 2rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #8958cf;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(89, 0, 124);
+}
+
+.card button:hover{
+    background-color: #9c79ce;
+
+}
+
+.contenedor-puntaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.contenedor-puntaje i{
+    font-size: 1.2rem;
+    color: rgb(223, 223, 22);
+}
+
+
+.card p{
+    color: #1f063f;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 0.5rem;
+    text-shadow: 2px 2px 4px rgb(107, 28, 153);
+}
+
+.cartelera-margin{
+    margin-top: 15rem;
+}
+
+.contenedor-paginacion {
+
+    display: flex;
+}
+
+.contenedor-paginacion button,p{
+    font-size: 1.5rem;
+}
+
+.contenedor-paginacion p{
+    margin: 0 2rem;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.contenedor-paginacion button{
+    text-decoration: none;
+    font-weight: bold;
+    color: #1f063f;
+    border: none;
+    background-color: #b39de8;
+}
+
+.titulo{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #1f063f;
+    text-shadow: 2px 2px 4px #441f75;;
+    margin-top: 3rem;
+
+}
+
+
+@media (min-width: 844px)
+{
+
+    .card{
+        width: 95%;
+        height: 31rem;
+    }
+
+    .card button{
+        margin-top: 2rem;
+        height: 2.5rem;
+    }
+
+
+}
+
+
+
+
+
+
+@media (max-width: 840px)
+{
+    .cartelera{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* 300px es el ancho mínimo y 1fr distribuye el espacio disponible */
+
+    }
+
+    .card{
+        height: 28.5rem;
+        width: 100%;
+    }
+
+    .card img{
+        height: 17rem;
+    }
+}
+
+@media (max-width: 796px){
+    .cartelera{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* 300px es el ancho mínimo y 1fr distribuye el espacio disponible */
+
+    }
+
+    .card{
+        height: 33rem;
+        width: 70%;
+    }
+
+    .card img{
+        min-height: 22rem;
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 610px)
+{
+
+    .card{
+        width: 90%;
+    }
+}
